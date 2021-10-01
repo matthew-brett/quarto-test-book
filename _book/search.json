@@ -1,0 +1,14 @@
+[
+  {
+    "href": "index.html#sub-heading-with-var-myvar-inside",
+    "title": "quarto-test-book",
+    "section": "1.1 Sub-heading with my variable inside",
+    "text": "And some text."
+  },
+  {
+    "href": "intro.html#sub-heading-with-var-myvar-inside",
+    "title": "2  Again before shortcode",
+    "section": "2.1 Sub-heading with my variable inside",
+    "text": "And some text."
+  }
+]
