@@ -1,0 +1,30 @@
+```{r}
+source('setup.R')
+# Contains only the following function:
+# get_var <- function(name) {
+#   return (get(name))
+# }
+```
+
+```{r}
+# Redefining the exact same function here fixes error below.
+# get_var <- function(name) {
+#   return (get(name))
+# }
+```
+
+```{r}
+p <- 1
+```
+
+```{r}
+# No error
+get('p')
+```
+
+```{r}
+# Error here:
+# Error in get(name) : object 'p' not found
+# Calls: .main ... withCallingHandlers -> withVisible -> eval -> eval -> get_var -> get
+get_var('p')
+```

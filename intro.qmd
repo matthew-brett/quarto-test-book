@@ -1,7 +1,0 @@
-# Again before shortcode {{< var myvar >}} after
-
-Start my text.
-
-## Sub-heading with {{< var myvar >}} inside
-
-And some text.
